@@ -10,7 +10,7 @@
 # How to execute an arbitrary action when a WinForms diagram item is clicked
 This example demonstrates how to catch the moment when one of diagram's child items is clicked and execute custom code there. The main idea of the implementation is to handle the standard [Click](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.click?view=net-5.0) event for DiagramControl and call the [CalcHitItem](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramControl.CalcHitItem(System.Drawing.PointF)) method to obtain a clicked element.
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=How-to-execute-an-arbitrary-action-when-a-diagram-item-is-clicked-winforms&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=How-to-execute-an-arbitrary-action-when-a-diagram-item-is-clicked-winforms&~~~was_helpful=no)
 
